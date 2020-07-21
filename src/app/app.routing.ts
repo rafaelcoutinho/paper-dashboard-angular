@@ -8,7 +8,7 @@ import { AuthGuard } from "./biz/_helpers/auth.guard";
 
 export const AppRoutes: Routes = [
   {
-    path: 'login",
+    path: 'login',
     component: LoginPageComponent
   },
   { path: 'landing', component: LandingPageComponent },  
