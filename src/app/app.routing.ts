@@ -15,15 +15,16 @@ export const AppRoutes: Routes = [
   {
     path: '',
     redirectTo: 'dashboard',
-    pathMatch: 'full', canActivate: [AuthGuard] 
+    pathMatch: 'full' 
   }, {
-    path: 'main',
+    path: '',
     component: AdminLayoutComponent,
+    
     children: [
         {
       path: '',
       loadChildren: './layouts/admin-layout/admin-layout.module#AdminLayoutModule'
-  }]}
+  }], canActivate: [AuthGuard]}
   // ,
   // {
   //   path: '**',
