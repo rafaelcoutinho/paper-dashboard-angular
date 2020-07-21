@@ -54,7 +54,6 @@ import { AdminLayoutComponent } from './layouts/admin-layout/admin-layout.compon
     ToastrModule.forRoot(),
     FooterModule,
     FixedPluginModule,
-    LoginPageComponent
   ],
   providers: [
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
