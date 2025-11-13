@@ -1,3 +1,19 @@
+## [2.4.0] 2022-12-08
+### Updates
+- update to Angular 14
+- update all dependencies to match Angular 14 version
+
+## [2.3.0] 2022-05-06
+### Updates
+- update to Angular 13
+- update all dependencies to match Angular 13 version
+- fixed cosmetic issue
+
+## [2.2.0] 2020-10-08
+### Updates
+- update to Angular 10
+- update all dependencies to match Angular 10 version
+
 ## [2.1.0] 2020-03-16
 ### Updates
 - update to Angular 9
